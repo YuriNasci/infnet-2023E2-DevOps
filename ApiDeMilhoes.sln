@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDeMilhoes", "ApiDeMilhoes.csproj", "{45A8E718-FB50-4567-B802-749B585FF28A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiDeMilhoes", "ApiDeMilhoes\ApiDeMilhoes.csproj", "{F86B3FB8-CF53-4CC1-BEBC-5DC15C1AF39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{CAFEF71C-41AA-4A43-89CF-BDE1EAFD80B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{45A8E718-FB50-4567-B802-749B585FF28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45A8E718-FB50-4567-B802-749B585FF28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45A8E718-FB50-4567-B802-749B585FF28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45A8E718-FB50-4567-B802-749B585FF28A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86B3FB8-CF53-4CC1-BEBC-5DC15C1AF39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86B3FB8-CF53-4CC1-BEBC-5DC15C1AF39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86B3FB8-CF53-4CC1-BEBC-5DC15C1AF39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86B3FB8-CF53-4CC1-BEBC-5DC15C1AF39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFEF71C-41AA-4A43-89CF-BDE1EAFD80B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFEF71C-41AA-4A43-89CF-BDE1EAFD80B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFEF71C-41AA-4A43-89CF-BDE1EAFD80B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFEF71C-41AA-4A43-89CF-BDE1EAFD80B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B58B8139-3290-4D9F-B787-B6F43CB29D67}
+		SolutionGuid = {459C2D63-F9EE-441F-8ED1-738303A94BFF}
 	EndGlobalSection
 EndGlobal
